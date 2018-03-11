@@ -1,11 +1,11 @@
 package aggregator
 
 import (
-	"sort"
 	"math"
+	"sort"
 )
 
-func Aggregate(sensors []Sensor) ([]Metric) {
+func Aggregate(sensors []Sensor) []Metric {
 	temperatures := groupTemperaturesById(sensors)
 	metrics := convertTemperaturesToMetrics(temperatures)
 	sortMetricsByAverage(metrics)

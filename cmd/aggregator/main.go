@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/slamdev/aggregator/internal/app/aggregator"
 	"log"
 	"os"
-	"github.com/slamdev/aggregator/internal/app/aggregator"
 )
 
 func main() {

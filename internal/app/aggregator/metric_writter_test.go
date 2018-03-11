@@ -1,8 +1,8 @@
 package aggregator
 
 import (
-	"testing"
 	"bytes"
+	"testing"
 )
 
 func TestWriteToWriteEmptyArrayWhenNoMetricsProvided(t *testing.T) {

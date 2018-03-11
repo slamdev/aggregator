@@ -1,13 +1,13 @@
 package main
 
 import (
-	"testing"
-	"os"
-	"encoding/json"
-	"reflect"
-	"io/ioutil"
 	"bytes"
+	"encoding/json"
 	"io"
+	"io/ioutil"
+	"os"
+	"reflect"
+	"testing"
 )
 
 func TestMainToAggregateDataFromFile(t *testing.T) {

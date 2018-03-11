@@ -1,8 +1,8 @@
 package aggregator
 
 import (
-	"io"
 	"encoding/json"
+	"io"
 )
 
 func Write(writer io.Writer, metrics []Metric) error {

@@ -1,10 +1,10 @@
 package aggregator
 
 import (
-	"testing"
+	"fmt"
 	"io/ioutil"
 	"os"
-	"fmt"
+	"testing"
 )
 
 func TestReadToReturnErrorWhenFileContentIsNotValidJson(t *testing.T) {

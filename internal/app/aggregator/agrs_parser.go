@@ -1,9 +1,9 @@
 package aggregator
 
 import (
-	"os"
-	"flag"
 	"errors"
+	"flag"
+	"os"
 )
 
 func ParseArgs() (AppArgs, error) {

@@ -1,9 +1,9 @@
 package aggregator
 
 import (
-	"testing"
-	"os"
 	"io/ioutil"
+	"os"
+	"testing"
 )
 
 func TestParseArgsToReturnErrorWhenNoArgumentsPassed(t *testing.T) {

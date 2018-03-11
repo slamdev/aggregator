@@ -1,8 +1,8 @@
 package aggregator
 
 import (
-	"testing"
 	"reflect"
+	"testing"
 )
 
 func assertEmptyAppArgs(value AppArgs, t *testing.T) {
