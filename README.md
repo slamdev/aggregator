@@ -2,6 +2,8 @@
 
 [Alternative Java implementation](https://github.com/slamdev/sensor-aggregator)
 
+[Alternative JavaScript implementation](https://github.com/slamdev/aggregator-js)
+
 ## Run
 
 Prerequisites:
